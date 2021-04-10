@@ -1,0 +1,210 @@
+* {
+    transition: all .4s;
+}
+
+/* Header Styling */
+
+header {
+    height: 70px;
+    background-color:white; 
+}
+
+header nav  {
+    text-align: center;
+    line-height: 70px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #C7C7AB;
+    font-size: 2em;
+    /* opacity: .5; */
+    transition: all .4s;
+    padding: 0 3vh;
+}
+
+header nav a:first-child {
+    float: left;
+    
+}
+
+header nav a:first-child > img {
+    height: 60px;
+}
+
+/* header nav a:hover {
+    opacity: 1;
+} */
+
+#welcome-wrapper-one {
+    height: 40vh;
+    width: 100vw;
+    background-color: #C7C7AB;
+    /* padding: 10px 3vw; */
+}
+
+#welcome-wrapper-one h2 {
+    color: white;
+    text-align: center;
+}
+
+#welcome-wrapper-one p {
+    color: white;
+    text-align: center;
+}
+
+#results-pic-wrapper {
+    background-image: url("../assets/results.jpg");
+}
+
+.left-teaser {
+    float: left;
+    height: 35vh;
+    width: 35vw;
+    background-size: cover;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+.right-teaser-text {
+    float: right;
+    width: 35vw;
+    padding: 25px;
+}
+
+
+#handshake-pic-wrapper {
+    background-image: url("../assets/handshake.jpg");
+}
+
+#fist-pic-wrapper {
+    background-image: url("../assets/fist-photo-3184430.jpg");
+}
+
+.right-teaser {
+    float: right;
+    height: 35vh;
+    width: 35vw;
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+}
+
+.left-teaser-text {
+    float: left;
+    width: 35vw;
+    padding-top: 25px;
+}
+
+.left-teaser-text h3 {
+    text-align: center;
+    color: #C7C7AB
+}
+
+.right-teaser-text h3 {
+    text-align: center;
+    color: #C7C7AB
+}
+
+.welcomeWrapperFour {
+    background-color: white;
+    padding-top: 35px;
+}
+
+.welcomeWrapperFour h2 {
+    color: #C7C7AB;
+    text-align: center;
+}
+
+.welcomeWrapperFour {
+    padding-top: 35px;
+    text-align: center;
+}
+
+.half {
+    width: 40vw;
+    border: 2px solid #C7C7AB;
+    background-color: white;
+    border-bottom: none;
+    font-size: 1.8em;
+    text-align: center;
+    outline: none;
+}
+
+#firstName {
+    margin-right: -4px;
+    border-right: 1px solid #C7C7AB;
+}
+
+#lastName {
+    margin-left: 0px;
+    border-left: 1px solid #C7C7AB;
+    
+}
+
+.full {
+    width: 80vw;
+    border: 2px solid #C7C7AB;
+    background-color: white;
+    border-bottom: none;
+    font-size: 1.8em;
+    text-align: center;
+    outline: none;
+}
+
+#sendMessageButton {
+    border-bottom: 2px solid #C7C7AB;
+    color: #C7C7AB;
+}
+
+#sendMessageButton:hover {
+    background-color: #C7C7AB;
+    color: white;
+}
+
+.welcomeWrapperFour form textarea {
+    border-bottom: 2px solid #C7C7AB;
+    height: 30vh;
+    resize: none;
+    margin-bottom: 20px;
+}
+
+::-webkit-input-placeholder { /* Edge */
+    color: #C7C7AB;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #C7C7AB;
+  }
+  
+  ::placeholder {
+    color: #C7C7AB;
+  }
+
+  .social-list {
+      text-align: center;
+      list-style-type: none;
+      margin-bottom: 35px;
+  }
+
+  /* .social-list li {
+      margin-left: 15px;
+      margin-right: 15px;
+  } */
+
+  .social-list li a {
+      color: #C7C7AB;
+      opacity: .7;
+      font-size: 4em;
+      margin-left: 15px;
+      margin-right: 15px;
+
+  }
+
+  .social-list li a:hover {
+      opacity: 1;
+  }
+
+
