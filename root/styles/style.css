@@ -32,6 +32,11 @@ header nav a {
     font-family: 'Parisienne', cursive;
 }
 
+header nav a:hover {
+    text-decoration: underline;
+    color: #C7C7AB;
+}
+
 header nav a:first-child {
     float: left;
     
@@ -292,6 +297,61 @@ header nav a:first-child > img {
   }
 
 
+  #about-wrapper-one {
+      height: 35vh;
+      width: 100vw;
+      background-image: url('https://images.pexels.com/photos/1648387/pexels-photo-1648387.jpeg?cs=srgb&dl=pexels-victoria-borodinova-1648387.jpg&fm=jpg');
+      background-size: cover;
+  }
+
+  #about-wrapper-two {
+      padding: 0 30px;
+  }
+
+  #about-wrapper-two h2 {
+    text-align:center;
+    color: #C7C7AB;
+    font-family: 'Parisienne', cursive;
+    font-size: 2em;
+  }
+
+  #about-wrapper-two p {
+      color :#C7C7AB;
+      text-indent: 25px;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  footer {
+      height: 20vh;
+      background-color: #C7C7AB;
+  }
+
+  footer address {
+    text-align: center;
+  }
+
+  footer address a {
+      color: white;
+  }
+
+  footer address a:hover {
+      text-decoration: none;
+  }
+  
+
+
   /* Media Queries */
 
   /* small */
@@ -304,5 +364,6 @@ header nav a:first-child > img {
         display: none;
     } 
   }
+
 
 
