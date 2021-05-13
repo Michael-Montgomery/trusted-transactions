@@ -46,13 +46,17 @@ header nav a:first-child > img {
     height: 60px;
 }
 
+#menuBar {
+    /* display: none; */
+}
+
 /* header nav a:hover {
     opacity: 1;
 } */
 
 #welcome-wrapper-one {
-    height: 40vh;
-    width: 90%;
+    min-height: 40vh;
+    width: 96%;
     background-color: #C7C7AB;
     display: block;
     margin: 0 auto;
@@ -210,6 +214,15 @@ header nav a:first-child > img {
     text-align: center;
 }
 
+#contactForm input:focus, #contactForm textarea:focus {
+    background-color: white;
+    color: black;
+
+    
+
+    
+}
+
 .half {
     width: 40vw;
     border: 2px solid white;
@@ -299,7 +312,7 @@ header nav a:first-child > img {
 
   #about-wrapper-one {
       height: 35vh;
-      width: 100vw;
+      /* width: 100vw; */
       background-image: url('https://images.pexels.com/photos/1648387/pexels-photo-1648387.jpeg?cs=srgb&dl=pexels-victoria-borodinova-1648387.jpg&fm=jpg');
       background-size: cover;
   }
@@ -324,15 +337,6 @@ header nav a:first-child > img {
 
 
 
-
-
-
-
-
-
-
-
-
   footer {
       height: 20vh;
       background-color: #C7C7AB;
@@ -340,6 +344,7 @@ header nav a:first-child > img {
 
   footer address {
     text-align: center;
+    color: white;
   }
 
   footer address a {
@@ -349,21 +354,180 @@ header nav a:first-child > img {
   footer address a:hover {
       text-decoration: none;
   }
+
+
+
+  /* Services */
+
+  .services-wrapper-one h2 {
+      text-align: center;
+      color: #C7C7AB
+  }
+
+  .services-wrapper-one table {
+      margin: 0 auto;
+      min-width: 60vw;
+      -webkit-box-shadow: 5px 5px 15px 12px rgba(0,0,0,0.11); 
+    box-shadow: 5px 5px 15px 12px rgba(0,0,0,0.11);
+    margin-bottom: 60px;
+  }
+
+  #services-overview-wrapper {
+      margin: 0 auto;
+    min-width: 60vw;
+    max-width: 60vw;
+    border: 1px solid #C7C7AB;
+    -webkit-box-shadow: 5px 5px 15px 12px rgba(0,0,0,0.11); 
+box-shadow: 5px 5px 15px 12px rgba(0,0,0,0.11);
+margin-bottom: 60px;
+  }
+
+  .services-wrapper-one table th {
+      text-align: center;
+      border: 1px solid #C7C7AB;
+      color: #C7C7AB;
+      font-size: 1.6em;
+  }
+
+  .services-wrapper-one table td {
+    text-align: center;
+    border: 1px solid #C7C7AB;
+    color:#C7C7AB;
+    font-size: 1.6em;
+  }
+
+  .services-wrapper-one dl {
+      text-align: center;
+
+  }
+
+  .services-wrapper-one dt {
+    font-size: 1.6em;
+    color:#C7C7AB;
+  }
+
+  .services-wrapper-one dd {
+    font-size: 1.6em;
+    color: #C7C7AB;
+  }
   
 
 
-  /* Media Queries */
+  /*Media queries*/
 
-  /* small */
 
-  @media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-    * {
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 520px) {
+
+    
+
+    ::marker {
         display: none;
-    } 
-  }
+    }
+    /* Styles */
 
+    #welcome-wrapper-one {
+        padding-top: 1px;
+    }
+
+    #welcome-wrapper-one p {
+        font-size: 1em;
+    }
+
+
+    #headshot-wrapper {
+        width: 200px;
+        height: 200px;
+    }
+
+    #bio-name {
+        font-size: 1.8em;
+    }
+
+    .bio-wrapper p {
+        font-size: 1em;
+    }
+
+    #signature-wrapper {
+        width: 150px;
+        height: 75px;
+        margin-bottom: 30px;
+    }
+
+    .welcomeWrapperFour h2 {
+        font-size: 1.6em;
+    }
+
+    .mobile-menu-wrapper {
+        background-color: #C7C7AB;
+        height: 100vh;
+        padding-top: 15vh;
+    }
+
+    .mobile-menu-wrapper ul {
+        list-style-type: none;
+        text-align: center;
+    }
+
+    .mobile-menu-wrapper ul li {
+        margin-bottom: 50px;
+    }
+    .mobile-menu-wrapper ul li a {
+        color: white;
+        font-size: 2.2em;
+    }
+
+    .mobile-menu-wrapper ul li a:hover {
+        text-decoration: none;
+    }
+
+
+
+
+
+
+    header nav a:not(:first-child) {
+        display: none;
+    }
+
+    header nav a:last-child {
+        display: list-item;
+        /* float: right; */
+        font-size: 2em;
+        /* color: red; */
+        float: right;
+    }
+    
+    header nav a:first-child {
+        text-align: center;
+        float: center;
+        margin: 0 auto;
+    }
+
+    .services-wrapper-one h2 {
+        font-size: 1.5em;
+    }
+
+    .services-wrapper-one dt {
+        font-size: 1.3em;
+        color:#C7C7AB;
+      }
+    .services-wrapper-one dd {
+        font-size: 1.3em;
+    }
+
+    #services-overview-wrapper, .services-wrapper-one table {
+        min-width: 95vw;
+    }
+
+
+
+
+
+
+    #about-wrapper-two p {
+        margin-bottom: 30px;
+    }
+    }
 
 
