@@ -422,7 +422,7 @@ margin-bottom: 60px;
 
 
 /* Smartphones (portrait) ----------- */
-@media only screen and (max-width : 520px) {
+@media only screen and (max-width : 770px) {
 
     #menuBar {
         display: inline;
@@ -430,6 +430,10 @@ margin-bottom: 60px;
 
     #menuBar:hover {
         text-decoration: none;
+    }
+
+    header nav a:first-child > img {
+        height: 50px;
     }
 
     ::marker {
