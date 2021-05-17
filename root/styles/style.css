@@ -1,8 +1,13 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
 * {
     transition: all .4s;
 }
 
-#mobile-sect {
+#miniWidget {
     display: none;
 }
 
@@ -40,6 +45,10 @@ header nav a:hover {
 header nav a:first-child {
     float: left;
     
+}
+
+#menuBar {
+    display: none;
 }
 
 header nav a:first-child > img {
@@ -415,7 +424,13 @@ margin-bottom: 60px;
 /* Smartphones (portrait) ----------- */
 @media only screen and (max-width : 520px) {
 
-    
+    #menuBar {
+        display: inline;
+    }
+
+    #menuBar:hover {
+        text-decoration: none;
+    }
 
     ::marker {
         display: none;
@@ -429,6 +444,51 @@ margin-bottom: 60px;
     #welcome-wrapper-one p {
         font-size: 1em;
     }
+
+    #desktop-sect {
+        display: none;
+    }
+
+    #miniWidget {
+        display: block;
+    }
+
+    .mobile-pic {
+        width: 105vw;
+        height: 40vh;
+        /* background-image: url('../assets/results.jpg'); */
+        background-size: cover;
+    }
+
+    #results-pic-wrapper-mobile {
+        background-image: url('../assets/results.jpg');
+    }
+
+    #handshake-pic-wrapper-mobile {
+        background-image: url('../assets/handshake.jpg');
+    }
+
+    #fist-pic-wrapper-mobile {
+        background-image: url('../assets/fist-photo-3184430.jpg');
+    }
+
+    #miniWidget h3 {
+        text-align: center;
+        font-family: 'Parisienne', cursive;
+        color: #C7C7AB;
+    }
+
+    #miniWidget p {
+        text-align: center;
+        color: #C7C7AB;
+        width: 92vw;
+    }
+
+    .half, .full {
+        font-size: 1.2em;
+    }
+
+   
 
 
     #headshot-wrapper {
