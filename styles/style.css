@@ -523,6 +523,7 @@ margin-bottom: 60px;
     .mobile-menu-wrapper ul {
         list-style-type: none;
         text-align: center;
+        padding-left: 0;
     }
 
     .mobile-menu-wrapper ul li {
