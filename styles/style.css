@@ -29,7 +29,7 @@ header nav  {
 
 header nav a {
     text-decoration: none;
-    color: #C7C7AB;
+    color: #C3E6E1;
     font-size: 2.5em;
     /* opacity: .5; */
     transition: all .4s;
@@ -39,7 +39,7 @@ header nav a {
 
 header nav a:hover {
     text-decoration: underline;
-    color: #C7C7AB;
+    color: #C3E6E1;
 }
 
 header nav a:first-child {
@@ -62,7 +62,7 @@ header nav a:first-child > img {
 #welcome-wrapper-one {
     min-height: 40vh;
     width: 96%;
-    background-color: #C7C7AB;
+    background-color: #C3E6E1;
     display: block;
     margin: 0 auto;
     text-align: center;
@@ -136,7 +136,7 @@ header nav a:first-child > img {
 
 .left-teaser-text h3 {
     text-align: center;
-    color: #C7C7AB;
+    color: #C3E6E1;
     font-family: 'Parisienne', cursive;
     font-size: 2.3em;
 }
@@ -145,12 +145,12 @@ header nav a:first-child > img {
     width: 40vw;
     margin: 0 auto;
     font-size: 1.2em;
-    color: #C7C7AB
+    color: #C3E6E1
 }
 
 .right-teaser-text h3 {
     text-align: center;
-    color: #C7C7AB;
+    color: #C3E6E1;
     font-family: 'Parisienne', cursive;
     font-size: 2.3em;
 }
@@ -159,7 +159,7 @@ header nav a:first-child > img {
     width: 40vw;
     margin: 0 auto;
     font-size: 1.2em;
-    color: #C7C7AB
+    color: #C3E6E1
 }
 
 
@@ -181,7 +181,7 @@ header nav a:first-child > img {
 
 .bio-wrapper h2 {
     text-align: center;
-    color: #C7C7AB;
+    color: #C3E6E1;
     font-family: 'Parisienne', cursive;
     font-size: 2.3em;
 }
@@ -190,7 +190,7 @@ header nav a:first-child > img {
     width: 75%;
     margin: 0 auto;
     font-size: 1.2em;
-    color: #C7C7AB;
+    color: #C3E6E1;
 }
 
 #signature-wrapper {
@@ -205,7 +205,7 @@ header nav a:first-child > img {
 
 
 .welcomeWrapperFour {
-    background-color: #C7C7AB;
+    background-color: #C3E6E1;
     padding-top: 35px;
 }
 
@@ -231,7 +231,7 @@ header nav a:first-child > img {
 .half {
     width: 40vw;
     border: 2px solid white;
-    background-color: #C7C7AB;
+    background-color: #C3E6E1;
     border-bottom: none;
     font-size: 1.8em;
     text-align: center;
@@ -252,7 +252,7 @@ header nav a:first-child > img {
 .full {
     width: 80vw;
     border: 2px solid white;
-    background-color: #C7C7AB;
+    background-color: #C3E6E1;
     border-bottom: none;
     font-size: 1.8em;
     text-align: center;
@@ -266,7 +266,7 @@ header nav a:first-child > img {
 
 #sendMessageButton:hover {
     background-color: white;
-    color: #C7C7AB;
+    color: #C3E6E1;
     -webkit-box-shadow: 0px 0px 28px 17px rgba(0,0,0,0.18); 
     box-shadow: 0px 0px 28px 17px rgba(0,0,0,0.18);
 }
@@ -328,13 +328,13 @@ header nav a:first-child > img {
 
   #about-wrapper-two h2 {
     text-align:center;
-    color: #C7C7AB;
+    color: #C3E6E1;
     font-family: 'Parisienne', cursive;
     font-size: 2em;
   }
 
   #about-wrapper-two p {
-      color :#C7C7AB;
+      color :#C3E6E1;
       text-indent: 25px;
   }
   
@@ -344,7 +344,7 @@ header nav a:first-child > img {
 
   footer {
       height: 20vh;
-      background-color: #C7C7AB;
+      background-color: #C3E6E1;
   }
 
   footer address {
@@ -366,7 +366,7 @@ header nav a:first-child > img {
 
   .services-wrapper-one h2 {
       text-align: center;
-      color: #C7C7AB
+      color: #C3E6E1
   }
 
   .services-wrapper-one table {
@@ -381,7 +381,7 @@ header nav a:first-child > img {
       margin: 0 auto;
     min-width: 60vw;
     max-width: 60vw;
-    border: 1px solid #C7C7AB;
+    border: 1px solid #C3E6E1;
     -webkit-box-shadow: 5px 5px 15px 12px rgba(0,0,0,0.11); 
 box-shadow: 5px 5px 15px 12px rgba(0,0,0,0.11);
 margin-bottom: 60px;
@@ -389,15 +389,15 @@ margin-bottom: 60px;
 
   .services-wrapper-one table th {
       text-align: center;
-      border: 1px solid #C7C7AB;
-      color: #C7C7AB;
+      border: 1px solid #C3E6E1;
+      color: #C3E6E1;
       font-size: 1.6em;
   }
 
   .services-wrapper-one table td {
     text-align: center;
-    border: 1px solid #C7C7AB;
-    color:#C7C7AB;
+    border: 1px solid #C3E6E1;
+    color:#C3E6E1;
     font-size: 1.6em;
   }
 
@@ -408,12 +408,12 @@ margin-bottom: 60px;
 
   .services-wrapper-one dt {
     font-size: 1.6em;
-    color:#C7C7AB;
+    color:#C3E6E1;
   }
 
   .services-wrapper-one dd {
     font-size: 1.6em;
-    color: #C7C7AB;
+    color: #C3E6E1;
   }
   
 
@@ -475,12 +475,12 @@ margin-bottom: 60px;
     #miniWidget h3 {
         text-align: center;
         font-family: 'Parisienne', cursive;
-        color: #C7C7AB;
+        color: #C3E6E1;
     }
 
     #miniWidget p {
         text-align: center;
-        color: #C7C7AB;
+        color: #C3E6E1;
         width: 92vw;
     }
 
@@ -515,7 +515,7 @@ margin-bottom: 60px;
     }
 
     .mobile-menu-wrapper {
-        background-color: #C7C7AB;
+        background-color: #C3E6E1;
         height: 100vh;
         padding-top: 15vh;
     }
@@ -567,7 +567,7 @@ margin-bottom: 60px;
 
     .services-wrapper-one dt {
         font-size: 1.3em;
-        color:#C7C7AB;
+        color:#C3E6E1;
       }
     .services-wrapper-one dd {
         font-size: 1.3em;
