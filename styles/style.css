@@ -14,7 +14,7 @@ ul {
 }
 
 li {
-    color: #C3E6E1;
+    color: #C7C7AB;
 }
 
 #miniWidget {
@@ -39,7 +39,7 @@ header nav  {
 
 header nav a {
     text-decoration: none;
-    color: #C3E6E1;
+    color: #C7C7AB;
     font-size: 2.5em;
     /* opacity: .5; */
     transition: all .4s;
@@ -48,7 +48,7 @@ header nav a {
 }
 
 header nav a:hover {
-    text-decoration: underline;
+    text-decoration: none;
     color: #C3E6E1;
 }
 
@@ -83,14 +83,14 @@ header nav a:first-child > img {
 }
 
 #welcome-wrapper-one h2 {
-    color: white;
+    color: #C7C7AB;
     text-align: center;
     font-family: 'Parisienne', cursive;
     font-size: 2.3em;
 }
 
 #welcome-wrapper-one p {
-    color: white;
+    color: #C7C7AB;
     text-align: center;
     font-size: 1.2em;
     width: 80%;
@@ -146,7 +146,7 @@ header nav a:first-child > img {
 
 .left-teaser-text h3 {
     text-align: center;
-    color: #C3E6E1;
+    color: #C7C7AB;
     font-family: 'Parisienne', cursive;
     font-size: 2.3em;
 }
@@ -155,7 +155,7 @@ header nav a:first-child > img {
     width: 40vw;
     margin: 0 auto;
     font-size: 1.2em;
-    color: #C3E6E1
+    color: #C7C7AB
 }
 
 .left-teaser-text ul {
@@ -164,7 +164,7 @@ header nav a:first-child > img {
 }
 
 .left-teaser-text ul li {
-    color: #C3E6E1;
+    color: #C7C7AB;
 }
 
 .right-teaser-text ul {
@@ -173,12 +173,12 @@ header nav a:first-child > img {
 }
 
 .right-teaser-text ul li {
-    color: #C3E6E1;
+    color: #C7C7AB;
 }
 
 .right-teaser-text h3 {
     text-align: center;
-    color: #C3E6E1;
+    color: #C7C7AB;
     font-family: 'Parisienne', cursive;
     font-size: 2.3em;
 }
@@ -187,7 +187,7 @@ header nav a:first-child > img {
     width: 40vw;
     margin: 0 auto;
     font-size: 1.2em;
-    color: #C3E6E1
+    color: #C7C7AB
 }
 
 
@@ -209,7 +209,7 @@ header nav a:first-child > img {
 
 .bio-wrapper h2 {
     text-align: center;
-    color: #C3E6E1;
+    color: #C7C7AB;
     font-family: 'Parisienne', cursive;
     font-size: 2.3em;
 }
@@ -218,7 +218,7 @@ header nav a:first-child > img {
     width: 75%;
     margin: 0 auto;
     font-size: 1.2em;
-    color: #C3E6E1;
+    color: #C7C7AB;
 }
 
 #signature-wrapper {
@@ -238,7 +238,7 @@ header nav a:first-child > img {
 }
 
 .welcomeWrapperFour h2 {
-    color: white;
+    color: #C7C7AB;
     text-align: center;
 }
 
@@ -258,7 +258,7 @@ header nav a:first-child > img {
 
 .half {
     width: 40vw;
-    border: 2px solid white;
+    border: 2px solid #C7C7AB;
     background-color: #C3E6E1;
     border-bottom: none;
     font-size: 1.8em;
@@ -268,18 +268,18 @@ header nav a:first-child > img {
 
 #firstName {
     margin-right: -4px;
-    border-right: 1px solid white;
+    border-right: 1px solid #C7C7AB;
 }
 
 #lastName {
     margin-left: 0px;
-    border-left: 1px solid white;
+    border-left: 1px solid #C7C7AB;
     
 }
 
 .full {
     width: 80vw;
-    border: 2px solid white;
+    border: 2px solid #C7C7AB;
     background-color: #C3E6E1;
     border-bottom: none;
     font-size: 1.8em;
@@ -288,34 +288,34 @@ header nav a:first-child > img {
 }
 
 #sendMessageButton {
-    border-bottom: 2px solid white;
-    color: white;
+    border-bottom: 2px solid #C7C7AB;
+    color: #C7C7AB;
 }
 
 #sendMessageButton:hover {
-    background-color: white;
-    color: #C3E6E1;
+    background-color: #C3E6E1;
+    color: #C7C7AB;
     -webkit-box-shadow: 0px 0px 28px 17px rgba(0,0,0,0.18); 
     box-shadow: 0px 0px 28px 17px rgba(0,0,0,0.18);
 }
 
 .welcomeWrapperFour form textarea {
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid #C7C7AB;
     height: 30vh;
     resize: none;
     margin-bottom: 20px;
 }
 
 ::-webkit-input-placeholder { /* Edge */
-    color: white;
+    color: #C7C7AB;
   }
   
   :-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color: white;
+    color: #C7C7AB;
   }
   
   ::placeholder {
-    color: white;
+    color: #C7C7AB;
   }
 
   .social-list {
@@ -330,7 +330,7 @@ header nav a:first-child > img {
   } */
 
   .social-list li a {
-      color: white;
+      color: #C7C7AB;
       opacity: .7;
       font-size: 4em;
       margin-left: 15px;
@@ -356,13 +356,13 @@ header nav a:first-child > img {
 
   #about-wrapper-two h2 {
     text-align:center;
-    color: #C3E6E1;
+    color: #C7C7AB;
     font-family: 'Parisienne', cursive;
     font-size: 2em;
   }
 
   #about-wrapper-two p {
-      color :#C3E6E1;
+      color :#C7C7AB;
       text-indent: 25px;
   }
   
@@ -377,11 +377,11 @@ header nav a:first-child > img {
 
   footer address {
     text-align: center;
-    color: white;
+    color: #C7C7AB;
   }
 
   footer address a {
-      color: white;
+      color: #C7C7AB;
   }
 
   footer address a:hover {
@@ -394,7 +394,7 @@ header nav a:first-child > img {
 
   .services-wrapper-one h2 {
       text-align: center;
-      color: #C3E6E1
+      color: #C7C7AB
   }
 
   .services-wrapper-one table {
@@ -417,15 +417,15 @@ margin-bottom: 60px;
 
   .services-wrapper-one table th {
       text-align: center;
-      border: 1px solid #C3E6E1;
-      color: #C3E6E1;
+      border: 1px solid #C7C7AB;
+      color: #C7C7AB;
       font-size: 1.6em;
   }
 
   .services-wrapper-one table td {
     text-align: center;
-    border: 1px solid #C3E6E1;
-    color:#C3E6E1;
+    border: 1px solid #C7C7AB;
+    color:#C7C7AB;
     font-size: 1.6em;
   }
 
@@ -436,12 +436,12 @@ margin-bottom: 60px;
 
   .services-wrapper-one dt {
     font-size: 1.6em;
-    color:#C3E6E1;
+    color:#C7C7AB;
   }
 
   .services-wrapper-one dl {
     font-size: 1.6em;
-    color: #C3E6E1;
+    color: #C7C7AB;
   }
 
   .services-wrapper-one ul {
@@ -506,7 +506,7 @@ margin-bottom: 60px;
     }
 
     #results-text-wrapper-mobile ul li{
-        color: #C3E6E1;
+        color: #C7C7AB;
     }
 
     #results-pic-wrapper-mobile {
@@ -524,12 +524,12 @@ margin-bottom: 60px;
     #miniWidget h3 {
         text-align: center;
         font-family: 'Parisienne', cursive;
-        color: #C3E6E1;
+        color: #C7C7AB;
     }
 
     #miniWidget p {
         text-align: center;
-        color: #C3E6E1;
+        color: #C7C7AB;
         width: 92vw;
     }
 
@@ -579,7 +579,7 @@ margin-bottom: 60px;
         margin-bottom: 50px;
     }
     .mobile-menu-wrapper ul li a {
-        color: white;
+        color: #C7C7AB;
         font-size: 2.2em;
     }
 
