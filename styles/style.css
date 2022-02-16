@@ -321,7 +321,7 @@ header nav a:first-child > img {
   .social-list {
       text-align: center;
       list-style-type: none;
-      margin-bottom: 35px;
+      margin-bottom: 0;
   }
 
   /* .social-list li {
