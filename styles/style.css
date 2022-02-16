@@ -222,7 +222,7 @@ header nav a:first-child > img {
 }
 
 #signature-wrapper {
-    background-image: url('../assets/signature.jpg');
+    background-image: url('../assets/signature.jpeg');
     background-size: cover;
     height: 150px;
     width: 250px;
