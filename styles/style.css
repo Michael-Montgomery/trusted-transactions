@@ -451,6 +451,17 @@ margin-bottom: 60px;
   .services-wrapper-one li {
       font-size: .8em;
   }
+
+  #credit-footer {
+      height: 50px;
+      background-color: #7F886B;
+  }
+
+  #credit-footer p {
+      text-align: center;
+      color: #F4EDDC;
+      line-height: 50px;
+  }
   
 
 
