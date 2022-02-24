@@ -106,8 +106,7 @@ header nav a:first-child > img {
     height: 35vh;
     width: 35vw;
     background-size: cover;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-radius: 20px;
 
 }
 
@@ -132,8 +131,7 @@ header nav a:first-child > img {
     height: 35vh;
     width: 35vw;
     background-size: cover;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+    border-radius: 20px;
 
 }
 
